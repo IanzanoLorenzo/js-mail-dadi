@@ -17,9 +17,9 @@ playButton.addEventListener("click", function(){
     risComputer.innerHTML = numberComputer
 
     if (numberUser < numberComputer){
-        risultato.innerHTML = `<h1>AHAHAHAHAHAH HAI PERSO</h1>`
+        risultato.innerHTML = `<h1>HAI PERSO</h1>`
     } else if(numberUser > numberComputer){
-        risultato.innerHTML = `<h1>CONGRATULAZIONI, HAI VINTO</h1>`
+        risultato.innerHTML = `<h1>HAI VINTO</h1>`
     } else {
         risultato.innerHTML = `<h1>HAI PAREGGIATO</h1>`
     }
